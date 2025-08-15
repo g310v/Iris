@@ -1,11 +1,12 @@
 # Iris - A polygon placement simulator
 
-The goal: display as many non-overlapping polygons as possible on a canvas within a set time limit.
+Displays as many non-overlapping polygons as possible on a canvas within a set time limit using my own (non-SAT) algorithm for detecting overlapping polygons.
 
 The program:
 - Loads polygon names and coordinates from an external file.
 - Uses random shape, color, and coordinates for placement.
 - Ensures polygons do **not** overlap, touch, or nest within each other.
+- Uses a custom 
 - Stops placement when the user-defined time limit expires.
 
 ## Features
