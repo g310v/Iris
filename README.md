@@ -6,7 +6,6 @@ The program:
 - Loads polygon names and coordinates from an external file.
 - Uses random shape, color, and coordinates for placement.
 - Ensures polygons do **not** overlap, touch, or nest within each other.
-- Uses a custom 
 - Stops placement when the user-defined time limit expires.
 
 ## Features
